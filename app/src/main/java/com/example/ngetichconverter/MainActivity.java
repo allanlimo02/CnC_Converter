@@ -143,7 +143,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
 
-
     }
     private void saveToSharedPreference(){
         SharedPreferences sharedPreferences=getSharedPreferences("fromCodeInput",MODE_PRIVATE);
